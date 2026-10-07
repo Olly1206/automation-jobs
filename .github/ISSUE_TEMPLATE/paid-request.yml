@@ -1,0 +1,50 @@
+name: Paid scripting request
+description: Request a quote for a small scripting or automation job.
+title: "[Job request]: "
+labels: [paid-request]
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public issue. Use synthetic examples; do not post credentials, private code or personal data. A request is not an accepted or funded contract."
+  - type: textarea
+    id: scope
+    attributes:
+      label: Task and desired result
+      description: What should the script do, and on which operating system?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Synthetic input and expected output
+      description: Give a small example with no private data.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checks
+      description: How will you confirm the work is correct? Include important edge cases.
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget in USD or USDC
+      description: Your budget for a scoped quote; payment is agreed separately.
+    validations:
+      required: true
+  - type: input
+    id: timing
+    attributes:
+      label: Desired timing
+      description: Availability and delivery timing are confirmed in the quote.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Request preferences
+      options:
+        - label: AI-assisted work and relevant replies in this thread are welcome.
+          required: true
+        - label: I understand the initial payment route is native Base USDC, with terms agreed before payment.
+          required: true
