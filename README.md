@@ -1,8 +1,8 @@
 # Small scripting and automation jobs
 
 This repository is the public job-request and delivery inbox for **Olly1206**.
-It supports small, clearly scoped scripting jobs, with AI assistance and owner
-review. It is a working inbox and sample project, not a marketplace or escrow.
+It supports small, clearly scoped scripting jobs with AI assistance and bounded
+automatic replies. It is a working inbox and sample project, not a marketplace or escrow.
 
 Examples of work to request:
 
@@ -20,7 +20,9 @@ code here. Private material requires a separately agreed delivery route.
 You receive a scoped proposal with price, work budget and acceptance checks.
 Creating an issue does not accept a job, reserve a delivery date or prove funding.
 Work starts after the scope, payment terms and acceptance criteria are agreed.
-AI-assisted replies are disclosed and reviewed before publication.
+AI-assisted automatic replies are disclosed, limited to consenting requests in
+this inbox, and capped at three per day. A reply is a proposal, not a confirmed
+payment or delivery. The owner supervises the service and can pause it.
 
 ## Payment and delivery
 
